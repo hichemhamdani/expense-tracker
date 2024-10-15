@@ -12,7 +12,7 @@ import Incomes from './components/Incomes/Incomes'
 import Expenses from './components/Expenses/Expenses'
 import { useGlobalContext } from './context/GlobalContext'
 
-import ViewTransactions from './components/viewTrans/viewTransactions'
+import ViewTransactions from './components/viewTrans/ViewTransactions'
 
 function App() {
   const [active, setActive] = useState(1)
